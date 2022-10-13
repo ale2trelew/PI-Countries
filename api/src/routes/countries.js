@@ -5,7 +5,7 @@ const router = express.Router();
 const sequelize = require("sequelize");
 const { Op } = require("sequelize");
 
-const { Country, Season, Activity } = requeire("../db.js");
+const { Country, Season, Activity } = require("../db.js");
 
 router.use(express.json());
 
